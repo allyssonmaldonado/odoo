@@ -12,4 +12,3 @@ exec odoo \
   --db_sslmode=require \
   --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
   --proxy-mode
-  -i base
