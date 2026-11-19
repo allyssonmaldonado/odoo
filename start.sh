@@ -10,5 +10,6 @@ exec odoo \
   --db_password="${DB_PASSWORD}" \
   -d "${DB_NAME}" \
   --db_sslmode=require \
-  --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
-  --proxy-mode
+    --addons-path=/usr/lib/python3/dist-packages/odoo/addons,/mnt/extra-addons \
+  --proxy-mode \
+  -i base
